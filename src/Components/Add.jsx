@@ -17,7 +17,7 @@ const[video,setVideo]=useState({
   const extractUrl = (e)=>{
     const {value} = e.target
    if(value){
-    const embedData = `https://www.youtube.com/watch?v=EsRyyJmO-u8/${value.slice(-11)}`
+    const embedData = `https://www.youtube.com/embed/${value.slice(-11)}`
     setVideo({...video,embedlink:embedData})
    }else{
     setVideo({...video,embedlink:""})

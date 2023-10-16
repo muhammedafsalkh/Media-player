@@ -45,7 +45,7 @@ function LandingPage() {
     <Card className='p-3' style={{ width: '22rem' }}>
       <Card.Img height={'300px'} variant="top" src="https://i.pinimg.com/originals/5a/c3/65/5ac3659684140aa60ceca491b48b8bb2.gif" />
       <Card.Body>
-        <Card.Title>Card Titl</Card.Title>
+        <Card.Title>Card Title</Card.Title>
         <Card.Text>
           Some quick example text to build on the card title and make up the
           bulk of the card's content.
@@ -57,7 +57,7 @@ function LandingPage() {
     <Card className='p-3' style={{ width: '22rem' }}>
       <Card.Img height={'300px'} variant="top" src="https://64.media.tumblr.com/016eb687807e1f2351ace929abf3e628/tumblr_mi0b7ytCwH1s5afm7o1_400.gif" />
       <Card.Body>
-        <Card.Title>Card Titl</Card.Title>
+        <Card.Title>Watch History</Card.Title>
         <Card.Text>
           Some quick example text to build on the card title and make up the
           bulk of the card's content.

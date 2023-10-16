@@ -48,7 +48,7 @@ function WatchHistory() {
             <td>{item?.caption}</td>
             <td> <a href={item?.embedlink} target='_blank'>{item?.embedlink}</a>  </td>
             <td>{item?.timeStamp}</td>
-            <td> <button onClick={()=>handleDeleteHistory} className='btn'> <i className='fa-solid fa-trash text-danger'></i></button></td>
+            <td> <button onClick={()=>handleDeleteHistory(item?.id)} className='btn'> <i className='fa-solid fa-trash text-danger'></i></button></td>
           </tr>
           ))
           :<p className='fw-bolder mt-3 fs-5 text-danger'>Nothing to display</p>
